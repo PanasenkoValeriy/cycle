@@ -11,6 +11,11 @@ export const Backdrop = styled.div`
 
 export const ModalWindow = styled.div`
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -18,6 +23,6 @@ export const ModalWindow = styled.div`
   min-height: 300px;
   max-width: 600px;
   width: 100%;
-  padding: 12px;
-  border-radius: 4px;
+  border-radius: 10px;
+  padding: 30px;
 `;
